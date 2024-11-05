@@ -23,7 +23,7 @@ full = ["bootstrap", "nerd"]
 iced_core.workspace = true
 
 [workspace.dependencies]
-iced_core = { git = "https://github.com/leo030303/iced.git" }
+iced_core = { git = "https://github.com/leo030303/iced.git", branch = "markdown_updates"}
 
 [patch.crates-io]
 # iced_core = { git = "https://github.com/iced-rs/iced.git" }
